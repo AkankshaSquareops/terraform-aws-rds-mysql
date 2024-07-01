@@ -228,7 +228,7 @@ variable "max_allocated_storage" {
 
 variable "storage_type" {
   description = "The storage type for the database storage like gp2,gp3,io1"
-  default     = "gp2"
+  default     = "gp3"
   type        = string
 }
 
